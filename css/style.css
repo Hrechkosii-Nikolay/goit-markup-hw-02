@@ -1,0 +1,12 @@
+/* font-family: 'Raleway', sans-serif; */
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-site-color: #2196f3;
+  --primery-background-color: #f5f4fa;
+  --footer-address-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primery-text-color);
+}
