@@ -1,12 +1,161 @@
 /* font-family: 'Raleway', sans-serif; */
 :root {
+  /* color */
   --primery-text-color: #757575;
   --title-text-color: #212121;
   --accent-site-color: #2196f3;
+  --header-logo-color: #000000;
   --primery-background-color: #f5f4fa;
   --footer-address-color: rgba(255, 255, 255, 0.6);
+  --footer-background-color: #2f303a;
 }
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primery-text-color);
+  background-color: #fff;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title-text-color);
+  letter-spacing: 0.03em;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.2;
+}
+/* --------Logo-------- */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--header-logo-color);
+}
+
+.logo-accent {
+  color: var(--accent-site-color);
+}
+
+/* --------Navigation-------- */
+.nav-link,
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.nav-link {
+  color: var(--title-text-color);
+}
+
+.contacts-link {
+  color: var(--primery-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus,
+.address .footer-contacts:hover,
+.address .footer-contacts:focus {
+  color: var(--accent-site-color);
+}
+
+/* --------Our advantages-------- */
+
+.feature-list .feature-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* --------Our-team-section-------- */
+
+.our-team {
+  background-color: var(--primery-background-color);
+}
+
+.our-team li {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.our-team > h3 {
+  font-weight: 500;
+}
+
+/* --------Footer-------- */
+
+.footer {
+  background-color: var(--footer-background-color);
+}
+
+.footer .logo,
+.footer .address {
+  color: #fff;
+}
+.address {
+  line-height: 1.7;
+  font-style: normal;
+}
+
+.address .footer-contacts {
+  color: var(--footer-address-color);
+}
+
+/* --------Portfolio-HTML-------- */
+
+.filter-bnt {
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  background-color: var(--primery-background-color);
+  cursor: pointer;
+
+  border: 0;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+
+.filter-bnt:hover,
+.filter-bnt:focus {
+  color: #fff;
+  background-color: var(--accent-site-color);
+}
+
+/* --------Portfolio-list-------- */
+
+.portfolio-list h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-item p {
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+.site-nav .nav-link.current-page {
+  color: var(--accent-site-color);
+}
+
+/* .footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-site-color);
+} */
