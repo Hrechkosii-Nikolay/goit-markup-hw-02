@@ -68,8 +68,8 @@ h6 {
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus,
-.address .footer-contacts:hover,
-.address .footer-contacts:focus {
+.address .items:hover,
+.address .items:focus {
   color: var(--accent-site-color);
 }
 
